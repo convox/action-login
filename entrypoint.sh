@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "Setting login credentials"
-echo ::set-env name=CONVOX_PASSWORD::$INPUT_PASSWORD
-echo ::set-env name=CONVOX_HOST::$INPUT_HOST
+echo "CONVOX_PASSWORD=$INPUT_PASSWORD" >> $GITHUB_ENV
+echo "CONVOX_HOST=$INPUT_HOST" >> $GITHUB_ENV
