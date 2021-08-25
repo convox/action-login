@@ -9,7 +9,7 @@ This Action authenticates your Convox [Deploy Key](https://docs.convox.com/conso
 
 ## Example usage
 ```
-uses: convox/action-login@v1
+uses: convox/action-login@v2
 with:
   password: ${{ secrets.CONVOX_DEPLOY_KEY }}
 ```
